@@ -1,0 +1,83 @@
+body {
+    background-color: #0D6EFD;
+}
+
+.left_panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 35px;
+    z-index: 1;
+}
+
+#my_collapse,
+ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 25px 25px;
+    transform: translateY(-15px);
+    transition: all 0s;
+}
+
+#my_collapse,
+li {
+    padding-top: 12.5px;
+}
+
+#form_ejercicio1 {
+    margin-top: 200px;
+}
+
+#form_ejercicio2 {
+    margin-top: 200px;
+}
+
+.box {
+    margin-top: 200px;
+}
+
+
+#form_ejercicio3 {
+    width: 300px;
+}
+
+#form_ejercicio5 {
+    margin-top: 200px;
+}
+
+.menuCards>div {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.right_panel4 {
+    overflow: auto;
+    height: 100vh;
+}
+
+#tablaNumeros {
+    height: 30vh;
+    overflow: auto;
+    padding-left: 15px;
+}
