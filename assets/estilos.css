@@ -81,3 +81,10 @@ li {
     overflow: auto;
     padding-left: 15px;
 }
+
+.inputMateria {
+    display: flex;
+    flex-direction: row;
+
+    width: 50%;
+}
